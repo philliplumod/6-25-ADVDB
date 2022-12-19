@@ -97,8 +97,7 @@ AND maker IN (
 	FROM Product AS pr 
 	JOIN Laptop AS l
 	ON pr.model = l.model
-	WHERE l.speed >= 750
-)`
+	WHERE l.speed >= 750)`
 
 ### 24
 `WITH MAX
